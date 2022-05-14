@@ -1,0 +1,29 @@
+spring:
+
+  datasource:
+    url: jdbc:h2:mem:testdb
+    username: sa
+    password:
+    driverClassName: org.h2.Driver
+
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    properties.hibernate.show_sql: true
+    properties.hibernate.format_sql: true
+
+  h2:
+    console:
+      enabled: true
+      path: /h2
+      settings.web-allow-others: true
+
+  mvc:
+    pathmatch:
+      matching-strategy: ant-path-matcher
+
+imb:
+  url: http://www.omdbapi.com/?
+  apiKey: apikey=702ddab2
+  filmes: Fight Club,Forrest Gump,Inception,The Matrix,Back To The Future,Terminator 2, Judgment Day,Star Wars,Interstellar,The Green Mile,Life Is Beautiful,City Of God,The Shawshank Redemption,The Godfather,The Dark Knight,The Lord Of The Rings,The Return Of The King,Pulp Fiction
+
+
