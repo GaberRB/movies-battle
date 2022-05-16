@@ -13,16 +13,16 @@ import java.io.Serializable;
 @NoArgsConstructor
 @Builder
 @Entity
-@Table(name = "filmes")
-public class Filmes implements Serializable {
+@Table(name = "login")
+public class Login implements Serializable {
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
-    @Column(name = "titulo", nullable = false)
-    private String titulo;
-    @Column(name = "imdb_rating", nullable = false)
-    private String imdbRating;
-    @Column(name = "imdb_votes", nullable = false)
-    private String imdbVotes;
-}
 
+    private String nickname;
+    private String senha;
+    private String auth;
+
+
+}
