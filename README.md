@@ -13,4 +13,4 @@
  Após final do game é possível checar o ranking dos jogadores.
 
 **Documentação API**
-![enter image description here](https://user-images.githubusercontent.com/28874479/168586144-68058224-9965-4c71-86d4-a2cd04968419.png)
+![Swagger](https://user-images.githubusercontent.com/28874479/168587702-73b061ad-5919-47cb-97ea-c0f9aa61cb64.png)
